@@ -1,0 +1,13 @@
+name: MobArenaHealthChecker
+main: org.pvpzone.shanko.mobarenahealthchecker.MobArenaHealthChecker
+version: 0.1
+commands:
+   manextwave:
+      description: Go to next wave.
+      usage: /manextwave <arena>
+      permission: MobArenaHealthChecker.nextwave
+      permission-message: You don't have MobArenaHealthChecker.nextwave
+permissions:
+    MobArenaHealthChecker.nextwave:
+        description: Skip a wave
+        default: op
